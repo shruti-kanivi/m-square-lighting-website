@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SEO from '../components/SEO';
 import LazyImage from '../components/LazyImage';
 import ImageModal from '../components/ImageModal';
@@ -21,6 +22,7 @@ import image14 from '../assets/portfolio/image_7.jpeg';
 import image15 from '../assets/portfolio/image_8.jpeg';
 
 const Portfolio = () => {
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -115,7 +117,7 @@ const Portfolio = () => {
         <section className="portfolio-cta">
           <h2>Ready to Transform Your Space?</h2>
           <p>Let's discuss your lighting project and create something extraordinary together.</p>
-          <button className="btn btn-primary">Get In Touch</button>
+          <button className="btn btn-primary" onClick={() => navigate('/contact')}>Get In Touch</button>
         </section>
         </div>
       </div>

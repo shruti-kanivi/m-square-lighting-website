@@ -29,18 +29,30 @@ const Home = () => {
           <h2>Our Lighting Solutions</h2>
           <div className="services-grid">
             <div className="service-card">
+              <div className="service-image">
+                <img src="/Architectural_Luminaires.png" alt="Architectural Luminaires" />
+              </div>
               <h3>Architectural Luminaires</h3>
               <p>Custom architectural lighting that enhances your design vision.</p>
             </div>
             <div className="service-card">
+              <div className="service-image">
+                <img src="/Downlighters.png" alt="Downlighters" />
+              </div>
               <h3>Downlighters</h3>
               <p>Precision downlighting systems for focused illumination.</p>
             </div>
             <div className="service-card">
+              <div className="service-image">
+                <img src="/Linear_Lighting.png" alt="Linear Lighting" />
+              </div>
               <h3>Linear Lighting</h3>
               <p>Sleek linear systems for modern, continuous lighting.</p>
             </div>
             <div className="service-card">
+              <div className="service-image">
+                <img src="/Acoustic_Lighting.png" alt="Acoustic Lighting" />
+              </div>
               <h3>Acoustic Lighting</h3>
               <p>Innovative lighting with integrated sound absorption features.</p>
             </div>

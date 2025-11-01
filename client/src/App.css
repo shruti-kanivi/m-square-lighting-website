@@ -73,6 +73,7 @@ img {
   display: block;
 }
 
+
 /* Prevent horizontal scroll */
 html {
   overflow-x: hidden;
@@ -422,6 +423,28 @@ html {
 .service-card p {
   color: var(--medium-gray);
   line-height: 1.8;
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: var(--light-mist);
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-normal);
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
 }
 
 .mission {
@@ -1166,6 +1189,98 @@ html {
   align-items: center;
 }
 
+/* Consultation CTA Section */
+.consultation-cta-section {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.consultation-cta-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 40%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.consultation-cta-content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-cta-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.consultation-cta-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.btn-consultation {
+  background: rgba(255, 255, 255, 0.9);
+  color: #4F46E5;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 16px 40px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-normal);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-consultation::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.6s;
+}
+
+.btn-consultation:hover::before {
+  left: 100%;
+}
+
+.btn-consultation:hover {
+  background: var(--white);
+  color: #4F46E5;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .header-cta {
@@ -1216,7 +1331,11 @@ html {
   }
   
   .mobile-nav-links li {
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  .mobile-nav-links li:last-child {
+    border-bottom: none;
   }
   
   .mobile-nav-links a {
@@ -1234,15 +1353,6 @@ html {
     color: var(--white);
   }
   
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-  
-  .hero-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-  
   .contact-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1256,6 +1366,11 @@ html {
   .footer-bottom-links {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  
+  .consultation-cta-content {
+    padding: 40px 20px;
+    margin: 0 20px;
   }
 }
 
@@ -1308,12 +1423,12 @@ html {
 .service-card {
   background: rgba(255, 255, 255, 0.65);
   border: 1px solid rgba(245, 158, 11, 0.15);
-  backdrop-filter: blur(8px) saturate(120%);
-  transform: translateZ(0);
 }
 
 .service-card:hover {
-  box-shadow: 0 20px 30px -10px rgba(245, 158, 11, 0.2), 0 0 0 1px rgba(245, 158, 11, 0.15);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary-accent);
 }
 
 .mission {
@@ -1381,21 +1496,21 @@ html {
 /* Make info blocks look like portfolio/service cards */
 .client-card,
 .service-section,
-.benefit-card {
-  background: rgba(255, 255, 255, 0.65);
-  padding: 2.0rem;
+.service-card {
+  background: var(--white);
+  padding: 2.5rem;
   border-radius: 16px;
   box-shadow: var(--shadow-lg);
+  text-align: center;
   transition: all var(--transition-normal);
-  border: 1px solid rgba(245, 158, 11, 0.15);
+  border: 2px solid transparent;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(8px) saturate(120%);
 }
 
 .client-card::before,
 .service-section::before,
-.benefit-card::before {
+.service-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -2250,6 +2365,7 @@ html {
   }
 }
 
+
 /* Print Styles */
 @media print {
   .header,
@@ -2269,10 +2385,12 @@ html {
   body {
     font-size: 12pt;
     color: #000;
+    background: white !important;
   }
   
   a {
     text-decoration: underline;
+    color: #000 !important;
   }
   
   .catalogue-table {

@@ -7,12 +7,13 @@
     "client": "cd client && npm run dev",
     "build": "cd client && npm run build",
     "start": "cd server && npm start",
-    "generate:catalogue": "node scripts/generate-catalogue.js",
+    "generate:catalogue": "node scripts/extract-excel-images.js",
     "vercel-build": "cd client && npm install && npm run build"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
     "fs-extra": "^11.3.2",
+    "jszip": "^3.10.1",
     "xlsx": "^0.18.5"
   },
   "license": "MIT"
