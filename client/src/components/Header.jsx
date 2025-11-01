@@ -10,6 +10,22 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  const handleMenuClick = () => {
+    toggleMenu();
+    scrollToTop();
+  };
+
+  const handleLogoClick = () => {
+    scrollToTop();
+  };
+
   const isActive = (path) => {
     return location.pathname === path ? 'active' : '';
   };
@@ -19,7 +35,7 @@ const Header = () => {
       <div className="container">
         <div className="header-content">
           {/* Logo */}
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={handleLogoClick}>
             <img src={logo} alt="M Square Lighting" className="logo-img" />
             <span className="logo-text">M Square Lighting</span>
           </Link>
@@ -27,18 +43,18 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="desktop-nav">
             <ul className="nav-links">
-              <li><Link to="/" className={isActive('/')}>Home</Link></li>
-              <li><Link to="/about" className={isActive('/about')}>About Us</Link></li>
-              <li><Link to="/services" className={isActive('/services')}>Services</Link></li>
-              <li><Link to="/portfolio" className={isActive('/portfolio')}>Portfolio</Link></li>
-              <li><Link to="/catalogue" className={isActive('/catalogue')}>Catalogue</Link></li>
-              <li><Link to="/contact" className={isActive('/contact')}>Contact</Link></li>
+              <li><Link to="/" className={isActive('/')} onClick={scrollToTop}>Home</Link></li>
+              <li><Link to="/about" className={isActive('/about')} onClick={scrollToTop}>About Us</Link></li>
+              <li><Link to="/services" className={isActive('/services')} onClick={scrollToTop}>Services</Link></li>
+              <li><Link to="/portfolio" className={isActive('/portfolio')} onClick={scrollToTop}>Portfolio</Link></li>
+              <li><Link to="/catalogue" className={isActive('/catalogue')} onClick={scrollToTop}>Catalogue</Link></li>
+              <li><Link to="/contact" className={isActive('/contact')} onClick={scrollToTop}>Contact</Link></li>
             </ul>
           </nav>
 
           {/* CTA Button */}
           <div className="header-cta">
-            <Link to="/contact" className="btn btn-primary">Get Quote</Link>
+            <Link to="/contact" className="btn btn-primary" onClick={scrollToTop}>Get Quote</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -52,12 +68,12 @@ const Header = () => {
         {/* Mobile Navigation */}
         <nav className={`mobile-nav ${isMenuOpen ? 'open' : ''}`}>
           <ul className="mobile-nav-links">
-            <li><Link to="/" onClick={toggleMenu} className={isActive('/')}>Home</Link></li>
-            <li><Link to="/about" onClick={toggleMenu} className={isActive('/about')}>About Us</Link></li>
-            <li><Link to="/services" onClick={toggleMenu} className={isActive('/services')}>Services</Link></li>
-            <li><Link to="/portfolio" onClick={toggleMenu} className={isActive('/portfolio')}>Portfolio</Link></li>
-            <li><Link to="/catalogue" onClick={toggleMenu} className={isActive('/catalogue')}>Catalogue</Link></li>
-            <li><Link to="/contact" onClick={toggleMenu} className={isActive('/contact')}>Contact</Link></li>
+            <li><Link to="/" onClick={handleMenuClick} className={isActive('/')}>Home</Link></li>
+            <li><Link to="/about" onClick={handleMenuClick} className={isActive('/about')}>About Us</Link></li>
+            <li><Link to="/services" onClick={handleMenuClick} className={isActive('/services')}>Services</Link></li>
+            <li><Link to="/portfolio" onClick={handleMenuClick} className={isActive('/portfolio')}>Portfolio</Link></li>
+            <li><Link to="/catalogue" onClick={handleMenuClick} className={isActive('/catalogue')}>Catalogue</Link></li>
+            <li><Link to="/contact" onClick={handleMenuClick} className={isActive('/contact')}>Contact</Link></li>
           </ul>
         </nav>
       </div>

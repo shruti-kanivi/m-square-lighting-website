@@ -2346,7 +2346,7 @@ html {
   }
   
   .logo-text {
-    display: none;
+    font-size: 1rem;
   }
 }
 
