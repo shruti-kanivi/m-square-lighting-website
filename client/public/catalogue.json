@@ -1,0 +1,756 @@
+[
+  {
+    "MODEL": "VL 23",
+    "DIAMETER": "63X18MM",
+    "HEIGHT": "210MM",
+    "WATTAGE": "NA"
+  },
+  {
+    "MODEL": "VL121",
+    "DIAMETER": "NA",
+    "HEIGHT": "NA",
+    "CUTOUT": "NA",
+    "WATTAGE": "3W"
+  },
+  {
+    "MODEL": "DEEPMASH MOVABLE",
+    "DIAMETER": "75MM",
+    "HEIGHT": "63MM",
+    "CUTOUT": "48MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "DELTA",
+    "CUTOUT": "65MM"
+  },
+  {
+    "MODEL": "WH+BK",
+    "WATTAGE": "7W",
+    "DIAMETER": "75MM",
+    "HEIGHT": "63MM"
+  },
+  {
+    "MODEL": "DELTA",
+    "CUTOUT": "65MM"
+  },
+  {
+    "MODEL": "WH+MB",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL SF 14",
+    "DIAMETER": "12W",
+    "HEIGHT": "52MM",
+    "CUTOUT": "147MM",
+    "WATTAGE": "12W +2W"
+  },
+  {
+    "MODEL": "VL SF 46",
+    "DIAMETER": "1200X18MM",
+    "HEIGHT": "105MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 23 SURFACE LINEA",
+    "HEIGHT": "116MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL SWIFT HONEYCOMB WH+CH",
+    "DIAMETER": "63MM",
+    "HEIGHT": "50MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VALUE",
+    "HEIGHT": "60MM"
+  },
+  {
+    "MODEL": "BLACK",
+    "CUTOUT": "50MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "63MM"
+  },
+  {
+    "MODEL": "VALUE",
+    "HEIGHT": "60MM"
+  },
+  {
+    "MODEL": "WHITE",
+    "CUTOUT": "50MM",
+    "WATTAGE": "12W",
+    "DIAMETER": "82MM"
+  },
+  {
+    "MODEL": "VL 15",
+    "HEIGHT": "100MM",
+    "CUTOUT": "73MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 22 TRIMLESS",
+    "DIAMETER": "107MM",
+    "HEIGHT": "118MM",
+    "CUTOUT": "82MM",
+    "WATTAGE": "7W X 2"
+  },
+  {
+    "MODEL": "VL 41",
+    "HEIGHT": "60MM",
+    "CUTOUT": "95MM"
+  },
+  {
+    "MODEL": "VL 44",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "WH+BK",
+    "DIAMETER": "68MM",
+    "HEIGHT": "45MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 47",
+    "DIAMETER": "52MM",
+    "HEIGHT": "37MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 48",
+    "HEIGHT": "120MM"
+  },
+  {
+    "MODEL": "GOLD",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 48",
+    "DIAMETER": "30MM"
+  },
+  {
+    "MODEL": "WHITE",
+    "HEIGHT": "95MM",
+    "CUTOUT": "40MM"
+  },
+  {
+    "MODEL": "VL 51",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 52",
+    "DIAMETER": "80MM"
+  },
+  {
+    "MODEL": "WH+CH",
+    "HEIGHT": "51MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 52",
+    "DIAMETER": "80MM"
+  },
+  {
+    "MODEL": "WH+WH",
+    "HEIGHT": "51MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "65MM"
+  },
+  {
+    "MODEL": "VL 55",
+    "HEIGHT": "53MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 56",
+    "DIAMETER": "65X65MM",
+    "HEIGHT": "53MM",
+    "CUTOUT": "55X55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 59",
+    "DIAMETER": "60MM",
+    "HEIGHT": "60MM",
+    "CUTOUT": "50MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 69",
+    "DIAMETER": "102MM"
+  },
+  {
+    "MODEL": "TRIMLES",
+    "HEIGHT": "70MM",
+    "CUTOUT": "75MM"
+  },
+  {
+    "MODEL": "VL 76 PRO"
+  },
+  {
+    "MODEL": "VL 89"
+  },
+  {
+    "MODEL": "VL 94",
+    "WATTAGE": "12-15W",
+    "DIAMETER": "80MM"
+  },
+  {
+    "MODEL": "VL 111",
+    "HEIGHT": "74MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W",
+    "DIAMETER": "60MM"
+  },
+  {
+    "MODEL": "VL 112",
+    "HEIGHT": "76MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 115",
+    "DIAMETER": "85MM",
+    "HEIGHT": "50MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 116",
+    "DIAMETER": "85MM",
+    "HEIGHT": "30MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 118",
+    "DIAMETER": "52MM",
+    "HEIGHT": "65MM",
+    "CUTOUT": "44MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 122 BK",
+    "DIAMETER": "62MM",
+    "HEIGHT": "68MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 122 BK HSG",
+    "DIAMETER": "62MM",
+    "HEIGHT": "68MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 122 SB",
+    "HEIGHT": "68MM",
+    "CUTOUT": "55MM"
+  },
+  {
+    "MODEL": "VL 122 WH",
+    "WATTAGE": "7W",
+    "DIAMETER": "60MM",
+    "HEIGHT": "68MM",
+    "CUTOUT": "55MM"
+  },
+  {
+    "MODEL": "VL 123 BK",
+    "HEIGHT": "55MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 123 WH",
+    "DIAMETER": "60MM",
+    "HEIGHT": "55MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 123",
+    "DIAMETER": "70MM"
+  },
+  {
+    "MODEL": "WH+GD",
+    "HEIGHT": "58MM",
+    "CUTOUT": "65MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 123",
+    "DIAMETER": "70MM"
+  },
+  {
+    "MODEL": "WH+GR",
+    "HEIGHT": "58MM",
+    "CUTOUT": "65MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 124",
+    "DIAMETER": "62MM"
+  },
+  {
+    "MODEL": "INVICTO",
+    "HEIGHT": "59MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "70MM"
+  },
+  {
+    "MODEL": "VL 131",
+    "HEIGHT": "50MM",
+    "CUTOUT": "63MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 131 BK",
+    "DIAMETER": "63MM",
+    "HEIGHT": "50MM",
+    "CUTOUT": "63MM",
+    "WATTAGE": "6W"
+  },
+  {
+    "MODEL": "VL 132",
+    "HEIGHT": "85MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 133",
+    "DIAMETER": "57MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 134",
+    "HEIGHT": "85MM",
+    "DIAMETER": "70MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 140",
+    "DIAMETER": "82MM",
+    "HEIGHT": "53MM",
+    "CUTOUT": "70MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 141",
+    "HEIGHT": "53MM",
+    "CUTOUT": "70MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "60MM"
+  },
+  {
+    "MODEL": "VL 144 BK",
+    "HEIGHT": "76MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "60MM"
+  },
+  {
+    "MODEL": "VL 144 WH",
+    "HEIGHT": "76MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 144",
+    "DIAMETER": "60MM"
+  },
+  {
+    "MODEL": "WH+BK",
+    "HEIGHT": "76MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "35"
+  },
+  {
+    "MODEL": "VL 145 BK",
+    "HEIGHT": "60",
+    "CUTOUT": "30",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 145 SB",
+    "DIAMETER": "35",
+    "HEIGHT": "60",
+    "CUTOUT": "30",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 145 WH",
+    "DIAMETER": "35",
+    "HEIGHT": "60",
+    "CUTOUT": "30",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 147",
+    "DIAMETER": "42MM",
+    "HEIGHT": "72MM",
+    "CUTOUT": "35MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 159 RG",
+    "DIAMETER": "80MM",
+    "HEIGHT": "30MM",
+    "CUTOUT": "60MM"
+  },
+  {
+    "MODEL": "VL 163",
+    "WATTAGE": "7W",
+    "DIAMETER": "60MM"
+  },
+  {
+    "MODEL": "VL 164",
+    "HEIGHT": "60MM",
+    "CUTOUT": "50MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "85MM"
+  },
+  {
+    "MODEL": "VL 165",
+    "CUTOUT": "70MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 167",
+    "DIAMETER": "60MM",
+    "HEIGHT": "40MM",
+    "CUTOUT": "48MM"
+  },
+  {
+    "MODEL": "VL 172"
+  },
+  {
+    "MODEL": "VL 174"
+  },
+  {
+    "MODEL": "VL 179",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 180 WH",
+    "DIAMETER": "75MM",
+    "HEIGHT": "40MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 183",
+    "HEIGHT": "80MM",
+    "CUTOUT": "63MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 184 GOLD",
+    "DIAMETER": "82MM",
+    "HEIGHT": "70MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL 184 RG",
+    "HEIGHT": "70MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "10W + 2W"
+  },
+  {
+    "MODEL": "VL 187",
+    "DIAMETER": "65MM",
+    "HEIGHT": "95MM",
+    "CUTOUT": "70MM",
+    "WATTAGE": "8W"
+  },
+  {
+    "MODEL": "VL 154",
+    "HEIGHT": "38MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "85MM"
+  },
+  {
+    "MODEL": "VL SWIFT",
+    "HEIGHT": "50MM",
+    "CUTOUT": "75MM"
+  },
+  {
+    "MODEL": "VL 24 DOUBLE BLK+ANTIQUE"
+  },
+  {
+    "MODEL": "VL 27 TRACK SPOT",
+    "WATTAGE": "3W",
+    "DIAMETER": "30MM"
+  },
+  {
+    "MODEL": "VL 37",
+    "HEIGHT": "45MM",
+    "CUTOUT": "20MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL GLORIA CYLINDER BLACK",
+    "DIAMETER": "50MM",
+    "HEIGHT": "80MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL GLORIA CYLINDER WH",
+    "HEIGHT": "80MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "80MM"
+  },
+  {
+    "MODEL": "OBY PRO",
+    "HEIGHT": "44MM",
+    "CUTOUT": "70MM"
+  },
+  {
+    "MODEL": "OBY PRO WHITE",
+    "WATTAGE": "7W",
+    "DIAMETER": "82MM",
+    "HEIGHT": "44MM",
+    "CUTOUT": "70MM"
+  },
+  {
+    "MODEL": "VL RING COB",
+    "HEIGHT": "50MM",
+    "CUTOUT": "64MM"
+  },
+  {
+    "MODEL": "VL SF 07"
+  },
+  {
+    "MODEL": "VL SF 37",
+    "WATTAGE": "12W",
+    "DIAMETER": "115X115MM",
+    "HEIGHT": "55MM"
+  },
+  {
+    "MODEL": "VL SF 40 BK",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL SF 40 WH",
+    "DIAMETER": "115X115MM",
+    "HEIGHT": "55MM"
+  },
+  {
+    "MODEL": "VL SF 990"
+  },
+  {
+    "MODEL": "VL SMPSL 29"
+  },
+  {
+    "MODEL": "VL 129 J"
+  },
+  {
+    "MODEL": "VL TL 23 GOLD"
+  },
+  {
+    "MODEL": "VL TL ECO"
+  },
+  {
+    "MODEL": "VL TL FB"
+  },
+  {
+    "MODEL": "VL ULTRA",
+    "WATTAGE": "6W",
+    "DIAMETER": "75X34MM"
+  },
+  {
+    "MODEL": "VL 6WAY LINEA",
+    "HEIGHT": "40MM",
+    "CUTOUT": "66X25MM"
+  },
+  {
+    "MODEL": "VL 10W DEEPCONE",
+    "WATTAGE": "12W",
+    "CUTOUT": "35MM"
+  },
+  {
+    "MODEL": "VL 52 WH+MB",
+    "DIAMETER": "80MM",
+    "HEIGHT": "51MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12W X 2"
+  },
+  {
+    "MODEL": "VL 60 DOUBLE PULLOUT",
+    "DIAMETER": "62MM",
+    "HEIGHT": "113MM",
+    "CUTOUT": "175X90MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 79 PULLOUT",
+    "HEIGHT": "86MM",
+    "CUTOUT": "58MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 87 BK",
+    "DIAMETER": "70MM",
+    "HEIGHT": "37MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 103",
+    "HEIGHT": "65MM",
+    "CUTOUT": "42MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "70MM"
+  },
+  {
+    "MODEL": "VL 103 WALL WASHER",
+    "HEIGHT": "65MM",
+    "CUTOUT": "42MM"
+  },
+  {
+    "MODEL": "VL 115 WH+MB",
+    "WATTAGE": "7W",
+    "DIAMETER": "85MM",
+    "HEIGHT": "50MM",
+    "CUTOUT": "75MM"
+  },
+  {
+    "MODEL": "VL 123 BLK",
+    "DIAMETER": "60MM",
+    "HEIGHT": "55MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7W"
+  },
+  {
+    "MODEL": "VL 123 SB",
+    "DIAMETER": "60MM",
+    "HEIGHT": "55MM",
+    "CUTOUT": "55MM"
+  },
+  {
+    "MODEL": "VL 136 TRIMLESS"
+  },
+  {
+    "MODEL": "VL 143 LINEA"
+  },
+  {
+    "MODEL": "VL  LINEA"
+  },
+  {
+    "MODEL": "VL 175",
+    "WATTAGE": "12W",
+    "DIAMETER": "83MM"
+  },
+  {
+    "MODEL": "VL 180 WH+MB",
+    "HEIGHT": "40MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "10W"
+  },
+  {
+    "MODEL": "VL IP 07",
+    "DIAMETER": "87MM",
+    "HEIGHT": "170MM"
+  },
+  {
+    "MODEL": "VL ZM 06"
+  },
+  {
+    "MODEL": "VOUGE RD"
+  },
+  {
+    "MODEL": "VOUGE SQ",
+    "WATTAGE": "6W"
+  },
+  {
+    "MODEL": "TITABLE LASER BLADE",
+    "DIAMETER": "84X49MM",
+    "HEIGHT": "44MM",
+    "CUTOUT": "78X43MM"
+  },
+  {
+    "MODEL": "DOUBLE TITABLE LASER BLADE",
+    "WATTAGE": "7W",
+    "DIAMETER": "74MM",
+    "HEIGHT": "44MM",
+    "CUTOUT": "138X90MM"
+  },
+  {
+    "MODEL": "VALUE SQUARE",
+    "HEIGHT": "61MM",
+    "CUTOUT": "54MM",
+    "WATTAGE": "7W",
+    "DIAMETER": "70MM"
+  },
+  {
+    "MODEL": "MASH FIX",
+    "HEIGHT": "70MM",
+    "CUTOUT": "60MM",
+    "WATTAGE": "3W",
+    "DIAMETER": "56MM"
+  },
+  {
+    "MODEL": "MASH MOVEABLE",
+    "HEIGHT": "38MM",
+    "CUTOUT": "48MM",
+    "WATTAGE": "3W"
+  },
+  {
+    "MODEL": "MINI SPOT CARROM",
+    "DIAMETER": "62MM",
+    "HEIGHT": "25MM",
+    "CUTOUT": "55MM",
+    "WATTAGE": "7-12W"
+  },
+  {
+    "MODEL": "AQUA IP 65",
+    "DIAMETER": "85MM",
+    "HEIGHT": "70MM",
+    "CUTOUT": "75MM",
+    "WATTAGE": "12*15W X 2"
+  },
+  {
+    "MODEL": "VL SFDL 29 TWIN SURFACE",
+    "DIAMETER": "147X76MM",
+    "HEIGHT": "96MM",
+    "WATTAGE": "12W X 2"
+  },
+  {
+    "MODEL": "VL 128 TWIN ANTIGLATRE",
+    "DIAMETER": "172X88MM",
+    "HEIGHT": "60MM",
+    "CUTOUT": "160X75MM",
+    "WATTAGE": "7W X 2"
+  },
+  {
+    "MODEL": "VL 57 TWIN HONEYCOMB",
+    "DIAMETER": "126MM",
+    "HEIGHT": "53MM",
+    "CUTOUT": "115 X 55MM",
+    "WATTAGE": "3W"
+  },
+  {
+    "MODEL": "VL 53 PENCIL HONECOMB",
+    "DIAMETER": "34MM",
+    "HEIGHT": "80MM",
+    "CUTOUT": "30MM",
+    "WATTAGE": "12W"
+  },
+  {
+    "MODEL": "VL SFDL 16",
+    "DIAMETER": "79X79MM",
+    "HEIGHT": "110MM"
+  }
+]
